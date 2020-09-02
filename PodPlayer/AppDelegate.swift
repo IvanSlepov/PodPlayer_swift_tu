@@ -4,7 +4,7 @@
 //
 //  Created by Ivan Sliepov on 02.09.2020.
 //  Copyright © 2020 Ivan Sliepov. All rights reserved.
-//
+//  first commit
 
 import Cocoa
 
