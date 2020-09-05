@@ -7,22 +7,36 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A35011DD2501437C00AB3C96 /* EpisodesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A35011DC2501437C00AB3C96 /* EpisodesViewController.swift */; };
+		A376E8D625028D41006675B6 /* EpisodeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A376E8D525028D41006675B6 /* EpisodeCell.swift */; };
+		A38F54D12501468E009B7260 /* TheSplitController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A38F54D02501468E009B7260 /* TheSplitController.swift */; };
+		A3BDF0CC25018AB500A7632B /* Episode.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3BDF0CB25018AB500A7632B /* Episode.swift */; };
 		A3D3018424FFE7C1004828F4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3D3018324FFE7C1004828F4 /* AppDelegate.swift */; };
-		A3D3018624FFE7C1004828F4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3D3018524FFE7C1004828F4 /* ViewController.swift */; };
 		A3D3018924FFE7C1004828F4 /* PodPlayer.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A3D3018724FFE7C1004828F4 /* PodPlayer.xcdatamodeld */; };
 		A3D3018B24FFE7C3004828F4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A3D3018A24FFE7C3004828F4 /* Assets.xcassets */; };
 		A3D3018E24FFE7C3004828F4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A3D3018C24FFE7C3004828F4 /* Main.storyboard */; };
+		A3D3019724FFF320004828F4 /* PodcastsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3D3019624FFF320004828F4 /* PodcastsViewController.swift */; };
+		A3D3019924FFFB22004828F4 /* Parser.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3D3019824FFFB22004828F4 /* Parser.swift */; };
+		A3D3019C25003938004828F4 /* SWXMLHash.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3D3019A25003938004828F4 /* SWXMLHash.swift */; };
+		A3D3019D25003938004828F4 /* XMLIndexer+XMLIndexerDeserializable.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3D3019B25003938004828F4 /* XMLIndexer+XMLIndexerDeserializable.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A35011DC2501437C00AB3C96 /* EpisodesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EpisodesViewController.swift; sourceTree = "<group>"; };
+		A376E8D525028D41006675B6 /* EpisodeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EpisodeCell.swift; sourceTree = "<group>"; };
+		A38F54D02501468E009B7260 /* TheSplitController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheSplitController.swift; sourceTree = "<group>"; };
+		A3BDF0CB25018AB500A7632B /* Episode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Episode.swift; sourceTree = "<group>"; };
 		A3D3018024FFE7C1004828F4 /* PodPlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PodPlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A3D3018324FFE7C1004828F4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		A3D3018524FFE7C1004828F4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		A3D3018824FFE7C1004828F4 /* PodPlayer.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PodPlayer.xcdatamodel; sourceTree = "<group>"; };
 		A3D3018A24FFE7C3004828F4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A3D3018D24FFE7C3004828F4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A3D3018F24FFE7C3004828F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A3D3019024FFE7C3004828F4 /* PodPlayer.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = PodPlayer.entitlements; sourceTree = "<group>"; };
+		A3D3019624FFF320004828F4 /* PodcastsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PodcastsViewController.swift; sourceTree = "<group>"; };
+		A3D3019824FFFB22004828F4 /* Parser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Parser.swift; sourceTree = "<group>"; };
+		A3D3019A25003938004828F4 /* SWXMLHash.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SWXMLHash.swift; sourceTree = "<group>"; };
+		A3D3019B25003938004828F4 /* XMLIndexer+XMLIndexerDeserializable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "XMLIndexer+XMLIndexerDeserializable.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,7 +70,13 @@
 			isa = PBXGroup;
 			children = (
 				A3D3018324FFE7C1004828F4 /* AppDelegate.swift */,
-				A3D3018524FFE7C1004828F4 /* ViewController.swift */,
+				A38F54D02501468E009B7260 /* TheSplitController.swift */,
+				A3D3019624FFF320004828F4 /* PodcastsViewController.swift */,
+				A35011DC2501437C00AB3C96 /* EpisodesViewController.swift */,
+				A3D3019824FFFB22004828F4 /* Parser.swift */,
+				A3BDF0CB25018AB500A7632B /* Episode.swift */,
+				A376E8D525028D41006675B6 /* EpisodeCell.swift */,
+				A3D3019E25003944004828F4 /* SWXMLHash */,
 				A3D3018A24FFE7C3004828F4 /* Assets.xcassets */,
 				A3D3018C24FFE7C3004828F4 /* Main.storyboard */,
 				A3D3018F24FFE7C3004828F4 /* Info.plist */,
@@ -64,6 +84,15 @@
 				A3D3018724FFE7C1004828F4 /* PodPlayer.xcdatamodeld */,
 			);
 			path = PodPlayer;
+			sourceTree = "<group>";
+		};
+		A3D3019E25003944004828F4 /* SWXMLHash */ = {
+			isa = PBXGroup;
+			children = (
+				A3D3019A25003938004828F4 /* SWXMLHash.swift */,
+				A3D3019B25003938004828F4 /* XMLIndexer+XMLIndexerDeserializable.swift */,
+			);
+			path = SWXMLHash;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -136,8 +165,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A3D3018624FFE7C1004828F4 /* ViewController.swift in Sources */,
+				A3D3019924FFFB22004828F4 /* Parser.swift in Sources */,
+				A3D3019D25003938004828F4 /* XMLIndexer+XMLIndexerDeserializable.swift in Sources */,
+				A35011DD2501437C00AB3C96 /* EpisodesViewController.swift in Sources */,
 				A3D3018424FFE7C1004828F4 /* AppDelegate.swift in Sources */,
+				A38F54D12501468E009B7260 /* TheSplitController.swift in Sources */,
+				A376E8D625028D41006675B6 /* EpisodeCell.swift in Sources */,
+				A3D3019724FFF320004828F4 /* PodcastsViewController.swift in Sources */,
+				A3D3019C25003938004828F4 /* SWXMLHash.swift in Sources */,
+				A3BDF0CC25018AB500A7632B /* Episode.swift in Sources */,
 				A3D3018924FFE7C1004828F4 /* PodPlayer.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
